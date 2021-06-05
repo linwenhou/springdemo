@@ -18,6 +18,6 @@ public class Entrance {
 		String xmlPath = "//Users/venvo/develop/spring/spring-framework-5.2.0.RELEASE/springdemo/src/main/resources/spring/spring-config.xml";
 		ApplicationContext applicationContext = new FileSystemXmlApplicationContext(xmlPath);
 		WelcomeService welcomeService = (WelcomeService) applicationContext.getBean("welcomeService");
-		welcomeService.sayHello("强大的spring框架");
+		welcomeService.sayHello("强大的spring框架!!");
 	}
 }
