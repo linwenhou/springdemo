@@ -1,6 +1,7 @@
 package com.venvo.service.impl;
 
 import com.venvo.service.WelcomeService;
+import org.springframework.stereotype.Service;
 
 /**
  * @author venvo
@@ -9,6 +10,7 @@ import com.venvo.service.WelcomeService;
  * @modified By
  * @version: jdk1.8
  */
+@Service
 public class WelcomeServiceImpl implements WelcomeService {
 	@Override
 	public String sayHello(String name) {
